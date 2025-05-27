@@ -3,7 +3,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: hsl(218, 28%, 13%);
@@ -36,4 +36,89 @@ max-width:1440px;
 img {
     max-width: 100%;
     height: auto;
+  }
+  .fylo-h1{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 28px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    line-height: 2.5rem;
+  }
+ 
+  .intro-p{
+    color:hsl(0, 4%, 66%) ;
+    font-family: 'Open sans';
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 1rem;
+  }
+  .intro-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    background-color: #4fc4d4; /* green */
+    color:hsl(0, 0%, 100%);
+    padding: 8px 60px;
+    border: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Open sans';
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #616490;
+  }
+  
+  .btn:active {
+    background-color: #554f72;
+  }
+  .overall-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 3rem;
+    line-height: 20px;
+  }
+  .access-div,
+  .security-div {
+    flex: 1 1 45%; /* Responsive sizing */
+    max-width: 50%;
+    padding: 2rem;
+    text-align: center;
+    
+  }
+  .access-h3, .security-h3{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding: 0.5rem;
+  }
+  .access-p, .security-p{
+    color: hsl(0, 3%, 49%);
+    font-family: 'Raleway';
+    font-weight: 700;
+    padding: 0.5rem;
+    text-align: center;
+    line-height: 1rem;
+  }
+  .stay-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 3rem;
+    line-height: 20px;
+  }
+  .stay-div1 , .stay-div2{
+    flex: 1 1 45%; /* Responsive sizing */
+    max-width: 50%;
+    padding: 2rem;
+    
   }
