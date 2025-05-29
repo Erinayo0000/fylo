@@ -110,15 +110,35 @@ img {
   }
   .stay-div{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 1rem;
+    align-items: center;
+    gap: 3rem;
     padding: 3rem;
     line-height: 20px;
   }
-  .stay-div1 , .stay-div2{
-    flex: 1 1 45%; /* Responsive sizing */
-    max-width: 50%;
-    padding: 2rem;
-    
-  }
+.stay-div2 h2{
+  color:hsl(0, 0%, 100%);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  padding: 0.5rem;
+}
+.stay-div2 p{
+  color:hsl(0, 26%, 92%);
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0.5rem;
+}
+.fylo-button{
+  color:#4fc4d4;
+  font-family: 'Open Sans';
+  margin-left: 0.5rem;
+  font-size: 14px;
+  line-height: 20px;
+}
+.arrow{
+ position: relative;
+ top: 5px;
+}
