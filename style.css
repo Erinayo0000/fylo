@@ -142,3 +142,46 @@ img {
  position: relative;
  top: 5px;
 }
+.big-div{
+  display: flex;
+  align-items: center;
+ margin: 2rem;
+ padding: 2rem;
+  gap: 2rem;
+}
+.div1, .div2, .div3{
+  background-color: rgb(33,41,60);
+  padding: 1.8rem;
+  color:hsl(0, 15%, 87%);
+  font-weight:400 ;
+  font-family: 'Open Sans' ;
+  line-height: 1rem;
+}
+.div-p{
+  color:hsl(0, 15%, 87%);
+  font-size: 14px;
+  font-weight:400 ;
+  font-family: 'Open Sans' ;
+  line-height: 1.3rem;
+}
+.test{
+ margin-top: 0.5rem;
+ margin-right: 7.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.test-img {
+  width: 3rem;
+ border-radius: 70rem;
+
+}
+.test-p{
+  font-size: 10px;
+}
+.early-access{
+  background-color: rgb(28,34,48);
+  padding: 1rem;
+  margin: 3rem 12rem;
+}
