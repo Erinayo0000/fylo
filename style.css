@@ -161,6 +161,7 @@ img {
   font-weight:400 ;
   font-family: 'Open Sans' ;
   line-height: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 .div-p{
   color:hsl(0, 15%, 87%);
